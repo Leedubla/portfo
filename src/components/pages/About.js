@@ -6,9 +6,9 @@ function About() {
     <h1>About Me</h1>
 
     <img src="images/img.bearddark.JPG" alt="me in the dark" width="350px" height="350px"
-        class="float-left m-3"/>
+        className="float-left m-3"/>
         <br clear="all"></br>
-    <p class="card-text">
+    <p className="card-text">
         
         Hello! My name is Lucas Winslow. I am 21 years old, and hail from Charlotte, North Carolina. I
         am
@@ -18,19 +18,19 @@ function About() {
     <p>I am currently taking a course for Coding, and hopefully it is enough to propell me into a future
         of success. Fun tip about me, I really enjoy cooking!
         <br></br>
-            Link to this Site: <a class= "btn btn-dark btn-sm" href="https://github.com/Leedubla/Bootstrap-02/blob/main/pass.html" role="button"> My Portfolio</a>
+            Link to this Site: <a className= "btn btn-dark btn-sm" href="https://github.com/Leedubla/Bootstrap-02/blob/main/pass.html" role="button"> My Portfolio</a>
             <br></br>
             <br></br>
-            Link to my resume. <a class= "btn btn-dark btn-sm" href={"https://drive.google.com/file/d/1sKZh5F-1IAY-8dG-3ZzT3zU8jzN2Q8UM/view"} role="button" >My Resume</a>
+            Link to my resume. <a className= "btn btn-dark btn-sm" href={"https://drive.google.com/file/d/1sKZh5F-1IAY-8dG-3ZzT3zU8jzN2Q8UM/view"} role="button" >My Resume</a>
             <br></br>
 
             Below are links to my websites that are listed on this page.
             <br></br>
-            PassWord Generator:  <a class="btn btn-dark btn-sm" href={"https://leedubla.github.io/passwordgen1/"}
+            PassWord Generator:  <a className="btn btn-dark btn-sm" href={"https://leedubla.github.io/passwordgen1/"}
             role="button">Deployed Version</a>
             <br>
             </br></p>
-            Fuel Finder: <a class="btn btn-dark btn-sm" href= {"https://grantf12.github.io/Alternative_Fuel_Finder/"} role="button">Fuel Finder</a>
+            Fuel Finder: <a className="btn btn-dark btn-sm" href= {"https://grantf12.github.io/Alternative_Fuel_Finder/"} role="button">Fuel Finder</a>
 
     
     </div>

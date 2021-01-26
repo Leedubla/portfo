@@ -20,7 +20,7 @@ function App() {
         <Route path="/contact" component={Contact} />
         <Route exact path="/pass" component={Pass} />
         <Route exact path="/runner" component={Runner}/>
-        <Route exact path="/port" components={Portfo}/>
+        <Route exact path="/port" component={Portfo}/>
       </div>
     </Router>
   );
