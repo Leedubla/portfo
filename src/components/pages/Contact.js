@@ -18,7 +18,7 @@ function Contact() {
           <input type="email" className="form-control" id="exampleInputPassword1"
             placeholder="youremail@address.com" />
         </div>
-        <button type="submit" className="btn btn-primary">Submit</button>
+        <button type="submit" className="btn btn-dark btn-sm">Submit</button>
         <div className="form-group">
           <label htmlFor="exampleFormControlTextarea1">Message</label>
           <textarea className="form-control" id="exampleFormControlTextarea1" placeholder="Message"

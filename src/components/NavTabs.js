@@ -8,58 +8,58 @@ function NavTabs() {
   const location = useLocation();
 
   return (
-    <ul className="nav nav-tabs" style={{backgroundColor: "#2F4F4F"}}>
+    <ul className="nav nav-tabs" bg="dark" style={{backgroundColor: "#292b2c"}}>
       <li className="nav-item" style={{color: "black"}}>
-        <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"} >
-          <font color="black"> Home </font>
+        <Link to="/" className={location.pathname === "/" ? "nav-link " : "nav-link"} >
+          <font color="white"> Home </font>
         </Link>
       </li>
       <li className="nav-item">
         <Link
           to="/about"
-          className={location.pathname === "/about" ? "nav-link active" : "nav-link"}
+          className={location.pathname === "/about" ? "nav-link " : "nav-link"}
         >
-         <font color="black"> About </font> 
+         <font color="white"> About </font> 
         </Link>
       </li>
       <li className="nav-item">
         <Link
           to="/blog"
-          className={location.pathname === "/blog" ? "nav-link active" : "nav-link"}
+          className={location.pathname === "/blog" ? "nav-link " : "nav-link"}
         >
-          <font color="black">Fuel Finder </font>
+          <font color="white">Fuel Finder </font>
         </Link>
       </li>
       <li className="nav-item">
         <Link
           to="/contact"
-          className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+          className={location.pathname === "/contact" ? "nav-link " : "nav-link"}
         >
-          <font color="black">Contact</font>
+          <font color="white">Contact</font>
         </Link>
       </li>
       <li className="nav-item">
         <Link
           to="/Pass"
-          className={location.pathname === "/Pass" ? "nav-link active" : "nav-link"}
+          className={location.pathname === "/Pass" ? "nav-link " : "nav-link"}
         >
-          <font color="black">PassWordGen</font>
+          <font color="white">PassWordGen</font>
         </Link>
       </li>
       <li className="nav-item">
         <Link
           to="/runner"
-          className={location.pathname === "/runner" ? "nav-link active" : "nav-link"}
+          className={location.pathname === "/runner" ? "nav-link " : "nav-link"}
         >
-          <font color="black">Runner</font>
+          <font color="white">Runner</font>
         </Link>
       </li>
       <li className="nav-item">
         <Link
           to="/port"
-          className={location.pathname === "/port" ? "nav-link active" : "nav-link"}
+          className={location.pathname === "/port" ? "nav-link " : "nav-link"}
         >
-          <font color="black">Portfolio</font>
+          <font color="white">Portfolio</font>
         </Link>
       </li>
     </ul>

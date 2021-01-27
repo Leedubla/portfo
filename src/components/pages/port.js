@@ -7,7 +7,7 @@ function Portfo() {
             <h1>Portfolio</h1>
 
             <div className="row" id="container">
-                <img src="images/img1.JPG" alt="thingys" width="350px" height="350px" href="About.js" /> <img
+                <img src="images/img1.JPG" alt="thingys" width="350px" height="350px"  /> <img
                     src="images/img6.JPG" alt="thingythang" width="350px" height="350px" />
             </div>
             <div className="row" id="container">

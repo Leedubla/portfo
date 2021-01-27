@@ -8,10 +8,10 @@ function Blog() {
     </p>
       <hr className="my-4"></hr>
       <p>Working Web App</p>
-      <a className="btn btn-dark btn-md" href={"https://grantf12.github.io/Alternative_Fuel_Finder/"}
+      <a className="btn btn-dark btn-sm" href={"https://grantf12.github.io/Alternative_Fuel_Finder/"}
         role="button">Fuel Finder</a>
       <p>Here is a link to the Repository.</p>
-      <a className="btn btn-dark btn-md" href={"https://github.com/grantf12/Alternative_Fuel_Finder"}
+      <a className="btn btn-dark btn-sm" href={"https://github.com/grantf12/Alternative_Fuel_Finder"}
         role="button">Repository</a>
       </div>
   );
